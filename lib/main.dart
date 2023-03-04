@@ -19,9 +19,6 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: FirstPage(
-        controller: FirstController(),
-      ),
       initialRoute: '/first',
       getPages: [
         GetPage(
