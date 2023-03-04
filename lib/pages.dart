@@ -20,7 +20,7 @@ class FirstPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            const Text('Fourth Page'),
+            const Text('First Page'),
             Text('Current Route: ${ModalRoute.of(context)?.settings.name}'),
             Text('Controller name is: ${controller.name}'),
             Text('Next route is: ${controller.nextRoute}'),
@@ -61,7 +61,7 @@ class SecondPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            const Text('Fourth Page'),
+            const Text('Second Page'),
             Text('Current Route: ${ModalRoute.of(context)?.settings.name}'),
             Text('Controller name is: ${controller.name}'),
             Text('Next route is: ${controller.nextRoute}'),
@@ -100,7 +100,7 @@ class ThirdPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            const Text('Fourth Page'),
+            const Text('Third Page'),
             Text('Current Route: ${ModalRoute.of(context)?.settings.name}'),
             Text('Controller name is: ${controller.name}'),
             Text('Next route is: ${controller.nextRoute}'),
